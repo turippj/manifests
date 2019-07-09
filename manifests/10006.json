@@ -1,0 +1,51 @@
+{
+  "model":"10006",
+  "name":"TURIP pot knob",
+  "protocol": "TURIP0.20",
+  "description":"TURIP pot encoder I/F module.",
+  "interface":["spi"],
+  "port":[
+    {
+      "number":1,
+      "name":"value",
+      "description":"Output of encoder value.",
+      "permission":"RW",
+      "type":"int16"
+    },
+    {
+      "number":2,
+      "name":"button",
+      "description":"Output of button state.",
+      "permission":"RO",
+      "type":"bool"
+    },
+    {
+      "number":3,
+      "name":"latch_button",
+      "description":"Output of button latch state.",
+      "permission":"RO",
+      "type":"bool"
+    },
+    {
+      "number":4,
+      "name":"red",
+      "description":"Output of LED Red (0-255).",
+      "permission":"RW",
+      "type":"int16"
+    },
+    {
+      "number":5,
+      "name":"green",
+      "description":"Output of LED Green (0-255).",
+      "permission":"RW",
+      "type":"int16"
+    },
+    {
+      "number":6,
+      "name":"blue",
+      "description":"Output of LED Green (0-255).",
+      "permission":"RW",
+      "type":"int16"
+    }
+  ]
+}

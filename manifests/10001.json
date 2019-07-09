@@ -1,0 +1,79 @@
+{
+  "model":"10001",
+  "name":"TURIP pot button",
+  "protocol": "TURIP0.20",
+  "description":"TURIP pot button module.",
+  "interface":["spi"],
+  "port":[
+    {
+      "number":1,
+      "name":"button1",
+      "description":"State of button 1.",
+      "permission":"RO",
+      "type":"bool"
+    },
+    {
+      "number":2,
+      "name":"button2",
+      "description":"State of button 2.",
+      "permission":"RO",
+      "type":"bool"
+    },
+    {
+      "number":3,
+      "name":"button3",
+      "description":"State of button 3.",
+      "permission":"RO",
+      "type":"bool"
+    },
+    {
+      "number":4,
+      "name":"button4",
+      "description":"State of button 4.",
+      "permission":"RO",
+      "type":"bool"
+    },
+    {
+      "number":5,
+      "name":"button5",
+      "description":"State of button 5.",
+      "permission":"RO",
+      "type":"bool"
+    },
+    {
+      "number":11,
+      "name":"latch_button1",
+      "description":"Latch state of button 1.",
+      "permission":"RO",
+      "type":"bool"
+    },
+    {
+      "number":12,
+      "name":"latch_button2",
+      "description":"Latch state of button 2.",
+      "permission":"RO",
+      "type":"bool"
+    },
+    {
+      "number":13,
+      "name":"latch_button3",
+      "description":"Latch state of button 3.",
+      "permission":"RO",
+      "type":"bool"
+    },
+    {
+      "number":14,
+      "name":"latch_button4",
+      "description":"Latch state of button 4.",
+      "permission":"RO",
+      "type":"bool"
+    },
+    {
+      "number":15,
+      "name":"latch_button5",
+      "description":"Latch state of button 5.",
+      "permission":"RO",
+      "type":"bool"
+    }
+  ]
+}

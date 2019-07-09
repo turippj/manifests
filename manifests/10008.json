@@ -1,0 +1,37 @@
+{
+  "model":"10008",
+  "name":"DO sensor beta",
+  "protocol": "TURIP0.20",
+  "description":"A dissolved oxygen sensor. (beta)",
+  "interface":["spi"],
+  "port":[
+    {
+      "number":1,
+      "name":"do",
+      "description":"Dissolved oxygen (mg/L).",
+      "permission":"RO",
+      "type":"float"
+    },
+    {
+      "number":2,
+      "name":"cal_air",
+      "description":"Calibrate in air (calibrating = true).",
+      "permission":"RW",
+      "type":"bool"
+    },
+    {
+      "number":3,
+      "name":"temperature",
+      "description":"temperature input for calibration (Celsius).",
+      "permission":"RW",
+      "type":"float"
+    },
+    {
+      "number":4,
+      "name":"pressure",
+      "description":"air pressure input for calibration (Pa).",
+      "permission":"RW",
+      "type":"float"
+    }
+  ]
+}

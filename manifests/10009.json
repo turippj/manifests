@@ -1,0 +1,23 @@
+{
+  "model":"10009",
+	"name":"CO2 sensor",
+	"description":"Seeed CO2 センサをTURIPモジュール化したものです",
+	"interface":["spi"],
+	"protocol": "TURIP0.20",
+	"port":[
+		{
+			"number":1,
+			"name":"CO2 [ppm]",
+			"description":"CO2濃度 [ppm]",
+			"permission":"RO",
+			"type":"int32"
+		},
+		{
+			"number":2,
+			"name":"Temperature",
+			"description":"気温 [℃]",
+			"permission":"RO",
+			"type":"int32"
+		}
+	]
+}

@@ -1,0 +1,58 @@
+{
+  "model":"10005",
+  "name":"TURIP pot servo",
+  "protocol": "TURIP0.20",
+  "description":"TURIP pot RC servo control module.",
+  "interface":["spi"],
+  "port":[
+    {
+      "number":1,
+      "name":"servo1",
+      "description":"Servo1 output.",
+      "permission":"RW",
+      "type":"int16"
+    },
+    {
+      "number":2,
+      "name":"servo2",
+      "description":"Servo2 output.",
+      "permission":"RW",
+      "type":"int16"
+    },
+    {
+      "number":3,
+      "name":"servo3",
+      "description":"Servo3 output.",
+      "permission":"RW",
+      "type":"int16"
+    },
+    {
+      "number":4,
+      "name":"servo4",
+      "description":"Servo4 output.",
+      "permission":"RW",
+      "type":"int16"
+    },
+    {
+      "number":4,
+      "name":"servo4",
+      "description":"Servo4 output.",
+      "permission":"RW",
+      "type":"int16"
+    },
+    {
+      "number":5,
+      "name":"servo5",
+      "description":"Servo5 output.",
+      "permission":"RW",
+      "type":"int16"
+    },
+    {
+      "number":6,
+      "name":"servo6",
+      "description":"Servo6 output.",
+      "permission":"RW",
+      "type":"int16"
+    }
+  ]
+}

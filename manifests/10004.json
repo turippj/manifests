@@ -1,0 +1,23 @@
+{
+  "model":"10004",
+  "name":"TURIP pot motor",
+  "protocol": "TURIP0.20",
+  "description":"TURIP pot motor drivers.",
+  "interface":["spi"],
+  "port":[
+    {
+      "number":1,
+      "name":"motor1",
+      "description":"Output of motor 1 (-255 - 255).",
+      "permission":"RW",
+      "type":"int16"
+    },
+    {
+      "number":2,
+      "name":"motor2",
+      "description":"Output of motor 2 (-255 - 255).",
+      "permission":"RW",
+      "type":"int16"
+    }
+  ]
+}

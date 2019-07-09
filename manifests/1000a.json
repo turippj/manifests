@@ -1,0 +1,16 @@
+{
+	"model":"1000a",
+	"name":"pH sensor",
+	"protocol": "TURIP0.20",
+	"description":"ガラス電極型pHセンサをTURIPモジュール化したものです",
+	"interface":["spi"],
+	"port":[
+		{
+			"number":1,
+			"name":"pH",
+			"description":"水素イオン濃度",
+			"permission":"RO",
+			"type":"float"
+		}
+	]
+}

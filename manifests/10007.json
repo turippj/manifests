@@ -1,0 +1,37 @@
+{
+  "model":"10007",
+  "name":"Temperature controller beta",
+  "protocol": "TURIP0.20",
+  "description":"Heating and cooling temperature controller. (beta)",
+  "interface":["spi"],
+  "port":[
+    {
+      "number":1,
+      "name":"temp_current",
+      "description":"Current temperature (Celsius).",
+      "permission":"RO",
+      "type":"float"
+    },
+    {
+      "number":2,
+      "name":"temp_target",
+      "description":"Target temperature (Celsius).",
+      "permission":"RW",
+      "type":"float"
+    },
+    {
+      "number":3,
+      "name":"temp_hysteresis",
+      "description":"Control hysteresis (Celsius).",
+      "permission":"RW",
+      "type":"float"
+    },
+    {
+      "number":4,
+      "name":"operate",
+      "description":"Operate status (0:none, 1:heating, 2:cooling).",
+      "permission":"RO",
+      "type":"int8"
+    }
+  ]
+}

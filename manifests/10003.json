@@ -1,0 +1,23 @@
+{
+  "model":"10003",
+  "name":"TURIP pot motion",
+  "protocol": "TURIP0.20",
+  "description":"TURIP pot motion sensor module.",
+  "interface":["spi"],
+  "port":[
+    {
+      "number":1,
+      "name":"motion",
+      "description":"State of a motion sensor.",
+      "permission":"RO",
+      "type":"bool"
+    },
+    {
+      "number":1,
+      "name":"latch_motion",
+      "description":"Latch state of a motion sensor.",
+      "permission":"RO",
+      "type":"bool"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "model":"10002",
+  "name":"TURIP pot environment",
+  "protocol": "TURIP0.20",
+  "description":"TURIP pot environment sensor.",
+  "interface":["spi"],
+  "port":[
+    {
+      "number":1,
+      "name":"temperature",
+      "description":"Temperature (Celsius).",
+      "permission":"RO",
+      "type":"float"
+    },
+    {
+      "number":2,
+      "name":"humidity",
+      "description":"humidity (%).",
+      "permission":"RO",
+      "type":"float"
+    },
+    {
+      "number":3,
+      "name":"pressure",
+      "description":"Air pressure (Pa).",
+      "permission":"RO",
+      "type":"float"
+    },
+    {
+      "number":4,
+      "name":"illuminance",
+      "description":"Illuminance (lx).",
+      "permission":"RO",
+      "type":"float"
+    }
+  ]
+}

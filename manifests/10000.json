@@ -1,0 +1,121 @@
+{
+  "model":"10000",
+  "name":"TURIP pot proto",
+  "protocol": "TURIP0.20",
+  "description":"TURIP pot module for prototyping.",
+  "interface":["spi"],
+  "port":[
+    {
+      "number":1,
+      "name":"digital1",
+      "description":"Digital I/O 1.",
+      "permission":"RW",
+      "type":"bool"
+    },
+    {
+      "number":2,
+      "name":"digital2",
+      "description":"Digital I/O 2.",
+      "permission":"RW",
+      "type":"bool"
+    },
+    {
+      "number":3,
+      "name":"digital3",
+      "description":"Digital I/O 3.",
+      "permission":"RW",
+      "type":"bool"
+    },
+    {
+      "number":4,
+      "name":"digital4",
+      "description":"Digital I/O 4.",
+      "permission":"RW",
+      "type":"bool"
+    },
+    {
+      "number":11,
+      "name":"direction1",
+      "description":"Direction of Digital1 (true=output).",
+      "permission":"RW",
+      "type":"bool"
+    },
+    {
+      "number":12,
+      "name":"direction2",
+      "description":"Direction of Digital2 (true=output).",
+      "permission":"RW",
+      "type":"bool"
+    },
+    {
+      "number":13,
+      "name":"direction3",
+      "description":"Direction of Digital3 (true=output).",
+      "permission":"RW",
+      "type":"bool"
+    },
+    {
+      "number":14,
+      "name":"direction4",
+      "description":"Direction of Digital4 (true=output).",
+      "permission":"RW",
+      "type":"bool"
+    },
+    {
+      "number":21,
+      "name":"pwm1",
+      "description":"PWM output 1.",
+      "permission":"RW",
+      "type":"int16"
+    },
+    {
+      "number":22,
+      "name":"pwm2",
+      "description":"PWM output 2.",
+      "permission":"RW",
+      "type":"int16"
+    },
+    {
+      "number":31,
+      "name":"analog1",
+      "description":"ADC 1.",
+      "permission":"RO",
+      "type":"int16"
+    },
+    {
+      "number":32,
+      "name":"analog2",
+      "description":"ADC 2.",
+      "permission":"RO",
+      "type":"int16"
+    },
+    {
+      "number":33,
+      "name":"analog3",
+      "description":"ADC 3.",
+      "permission":"RO",
+      "type":"int16"
+    },
+    {
+      "number":34,
+      "name":"analog4",
+      "description":"ADC 4.",
+      "permission":"RO",
+      "type":"int16"
+    },
+    {
+      "number":35,
+      "name":"analog5",
+      "description":"ADC 5.",
+      "permission":"RO",
+      "type":"int16"
+    },
+    {
+      "number":36,
+      "name":"analog6",
+      "description":"ADC 6.",
+      "permission":"RO",
+      "type":"int16"
+    }
+  ]
+}
