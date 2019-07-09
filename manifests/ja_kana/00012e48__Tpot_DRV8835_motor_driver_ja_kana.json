@@ -1,0 +1,17 @@
+{
+  "model": 77384,
+  "name": "",
+  "description": "",
+  "port": {
+    "1": {
+      "type": "int16",
+      "name": "",
+      "description": ""
+    },
+    "2": {
+      "type": "uint16",
+      "name": "",
+      "description": ""
+    }
+  }
+}

@@ -2,10 +2,27 @@ i18n:
   - en
   - ja
   - ja_kana
-model: "000112d4"
-name: Tpot VL53L1X sensor
+model: 0x000112d4
+name: &name "Tpot VL53L1X sensor"
+name_i18n:
+  en: *name
+  ja: ""
+  ja_kana: ""
 description: "A Tpot module of distance sensor (ST, VL53L1X)."
+description_i18n:
+  en: ""
+  ja: ""
+  ja_kana: ""
 port:
   1:
     type: uint16
     name: "Distance [mm]"
+    name_i18n:
+      en: ""
+      ja: ""
+      ja_kana: ""
+    description: ""
+    description_i18n:
+      en: ""
+      ja: ""
+      ja_kana: ""

@@ -2,6 +2,9 @@
   "model": 77072,
   "name": "Tpot BME280 sensor",
   "description": "A Tpot module of environment sensors (Bosch, BME280).",
+  "interface": [
+    "i2c"
+  ],
   "port": {
     "1": {
       "type": "float",

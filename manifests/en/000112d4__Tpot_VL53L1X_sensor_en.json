@@ -1,0 +1,12 @@
+{
+  "model": 70356,
+  "name": "Tpot VL53L1X sensor",
+  "description": "",
+  "port": {
+    "1": {
+      "type": "uint16",
+      "name": "",
+      "description": ""
+    }
+  }
+}

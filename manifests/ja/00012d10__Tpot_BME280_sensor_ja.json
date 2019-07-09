@@ -2,6 +2,9 @@
   "model": 77072,
   "name": "Tpot BME280 センサ",
   "description": "環境センサ(Bosch, BME280)を搭載したTpotモジュール",
+  "interface": [
+    "i2c"
+  ],
   "port": {
     "1": {
       "type": "float",

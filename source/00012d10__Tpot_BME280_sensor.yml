@@ -2,7 +2,7 @@ i18n:
   - en
   - ja
   - ja_kana
-model: "00012d10"
+model: 0x00012d10
 name: &name "Tpot BME280 sensor"
 name_i18n:
   en: *name
@@ -13,6 +13,8 @@ description_i18n:
   en: *description
   ja: "環境センサ(Bosch, BME280)を搭載したTpotモジュール"
   ja_kana: "かんきょうセンサ(Bosch, BME280)をとうさいしたTpotモジュール"
+interface:
+  - "i2c"
 port:
   1:
     type: float
