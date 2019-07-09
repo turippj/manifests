@@ -1,4 +1,3 @@
-require "yaml"
 require "securerandom"
 
 models = []
@@ -20,5 +19,17 @@ manifest = {
 
 filename = newmodel + "__" + name.gsub(/ /, '_') + ".yml"
 File.open("./source/" + filename, "w") do |f|
-  f.puts YAML.dump(manifest)
+  f.puts "i18n:\n  - en\n  - ja\n  - ja_kana"
+  f.puts "model: 0x" + newmodel
+  f.puts "name: &name \"" + name + "\""
+  f.puts "name_i18n:\n  en: *name\n  ja: \"\"\n  ja_kana: \"\""
+  f.puts "description: &description \"\""
+  f.puts "description_i18n:\n  en: *description\n  ja: \"\"\n  ja_kana: \"\""
+  f.puts "port:"
+  f.puts "  number:"
+  f.puts "    type: \"\""
+  f.puts "    name: \"\""
+  f.puts "    name_i18n:\n      en: *name\n      ja: \"\"\n      ja_kana: \"\""
+  f.puts "    description: &description \"\""
+  f.puts "    description_i18n:\n      en: *description\n      ja: \"\"\n      ja_kana: \"\""
 end
