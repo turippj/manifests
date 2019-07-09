@@ -42,9 +42,7 @@ Dir.glob("./source/*.yml") do |item|
   i = 0
   manifest_full["port"] = []
   manifest["port"].each{ |port, value|
-    puts port
     content = Marshal.load(Marshal.dump(value))
-    puts content
     manifest_full["port"][i] = {}
     manifest_full["port"][i]["number"] = port
     manifest_full["port"][i].merge!(content)
