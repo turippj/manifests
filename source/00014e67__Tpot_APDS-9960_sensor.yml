@@ -2,7 +2,7 @@ i18n:
   - en
   - ja
   - ja_kana
-model: 0x00014e67
+model: "00014e67"
 name: &name "Tpot APDS-9960 sensor"
 name_i18n:
   en: *name

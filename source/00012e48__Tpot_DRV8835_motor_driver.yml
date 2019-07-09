@@ -1,0 +1,10 @@
+model: "00012e48"
+name: "Tpot DRV8835 motor driver"
+description: "A Tpot module of motor drivers (TI, DRV8835)"
+port:
+  1:
+    type: int16
+    name: "motor1 output"
+  2:
+    type: uint16
+    name: "moter2 output"
