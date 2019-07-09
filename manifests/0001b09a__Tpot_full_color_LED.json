@@ -1,25 +1,73 @@
 {
-  "model": 110746,
+  "i18n": [
+    "en",
+    "ja",
+    "ja_kana"
+  ],
+  "model": "1b09a",
   "name": "Tpot full color LED",
+  "name_i18n": {
+    "en": "Tpot full color LED",
+    "ja": "",
+    "ja_kana": ""
+  },
   "description": "",
+  "description_i18n": {
+    "en": "",
+    "ja": "",
+    "ja_kana": ""
+  },
   "interface": [
     "virtual"
   ],
-  "port": {
-    "1": {
+  "port": [
+    {
+      "number": 1,
       "type": "uint8",
       "name": "Red",
-      "description": ""
+      "name_i18n": {
+        "en": "Tpot full color LED",
+        "ja": "",
+        "ja_kana": ""
+      },
+      "description": "",
+      "description_i18n": {
+        "en": "",
+        "ja": "",
+        "ja_kana": ""
+      }
     },
-    "2": {
+    {
+      "number": 2,
       "type": "uint8",
       "name": "Green",
-      "description": ""
+      "name_i18n": {
+        "en": "Tpot full color LED",
+        "ja": "",
+        "ja_kana": ""
+      },
+      "description": "",
+      "description_i18n": {
+        "en": "",
+        "ja": "",
+        "ja_kana": ""
+      }
     },
-    "3": {
+    {
+      "number": 3,
       "type": "uint8",
       "name": "Blue",
-      "description": ""
+      "name_i18n": {
+        "en": "Tpot full color LED",
+        "ja": "",
+        "ja_kana": ""
+      },
+      "description": "",
+      "description_i18n": {
+        "en": "",
+        "ja": "",
+        "ja_kana": ""
+      }
     }
-  }
+  ]
 }

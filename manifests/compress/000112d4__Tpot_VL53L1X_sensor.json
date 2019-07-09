@@ -1,0 +1,1 @@
+{"model":"112d4","name":"Tpot VL53L1X sensor","description":"A Tpot module of distance sensor (ST, VL53L1X).","interface":["i2c"],"port":[{"number":1,"type":"uint16","name":"Distance [mm]","description":""}]}

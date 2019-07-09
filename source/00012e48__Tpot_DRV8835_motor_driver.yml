@@ -26,7 +26,7 @@ port:
       ja_kana: ""
   2:
     type: uint16
-    name: "moter2 output"
+    name: "motor2 output"
     name_i18n:
       en: ""
       ja: ""

@@ -1,15 +1,16 @@
 {
-  "model": 70356,
+  "model": "112d4",
   "name": "",
   "description": "",
   "interface": [
     "i2c"
   ],
-  "port": {
-    "1": {
+  "port": [
+    {
+      "number": 1,
       "type": "uint16",
       "name": "",
       "description": ""
     }
-  }
+  ]
 }

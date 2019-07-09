@@ -1,25 +1,28 @@
 {
-  "model": 110746,
+  "model": "1b09a",
   "name": "Tpot full color LED",
   "description": "",
   "interface": [
     "virtual"
   ],
-  "port": {
-    "1": {
+  "port": [
+    {
+      "number": 1,
       "type": "uint8",
-      "name": "",
+      "name": "Tpot full color LED",
       "description": ""
     },
-    "2": {
+    {
+      "number": 2,
       "type": "uint8",
-      "name": "",
+      "name": "Tpot full color LED",
       "description": ""
     },
-    "3": {
+    {
+      "number": 3,
       "type": "uint8",
-      "name": "",
+      "name": "Tpot full color LED",
       "description": ""
     }
-  }
+  ]
 }

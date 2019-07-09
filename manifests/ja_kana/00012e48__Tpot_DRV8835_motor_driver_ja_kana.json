@@ -1,20 +1,22 @@
 {
-  "model": 77384,
+  "model": "12e48",
   "name": "",
   "description": "",
   "interface": [
     "i2c"
   ],
-  "port": {
-    "1": {
+  "port": [
+    {
+      "number": 1,
       "type": "int16",
       "name": "",
       "description": ""
     },
-    "2": {
+    {
+      "number": 2,
       "type": "uint16",
       "name": "",
       "description": ""
     }
-  }
+  ]
 }

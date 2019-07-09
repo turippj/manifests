@@ -1,0 +1,1 @@
+{"model":"12d10","name":"Tpot BME280 sensor","description":"A Tpot module of environment sensors (Bosch, BME280).","interface":["i2c"],"port":[{"number":1,"type":"float","name":"Temperature","description":"Temperature [°C]"},{"number":2,"type":"float","name":"Humidity","description":"Humidity [%]"},{"number":3,"type":"float","name":"Pressure","description":"Pressure [Pa]"}]}

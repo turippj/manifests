@@ -1,20 +1,57 @@
 {
-  "model": 85607,
+  "i18n": [
+    "en",
+    "ja",
+    "ja_kana"
+  ],
+  "model": "14e67",
   "name": "Tpot APDS-9960 sensor",
+  "name_i18n": {
+    "en": "Tpot APDS-9960 sensor",
+    "ja": "Tpot APDS-9960 センサ",
+    "ja_kana": "Tpot APDS-9960 センサ"
+  },
   "description": "A Tpot module of proximity and gesture sensors (Broadcom, APDS-9960).",
+  "description_i18n": {
+    "en": "A Tpot module of proximity and gesture sensors (Broadcom, APDS-9960).",
+    "ja": "近接・ジェスチャーセンサ(Broadcom, APDS-9960)を搭載したTpotモジュール",
+    "ja_kana": "きんせつ・ジェスチャーセンサ(Broadcom, APDS-9960)をとうさいしたTpotモジュール"
+  },
   "interface": [
     "i2c"
   ],
-  "port": {
-    "1": {
+  "port": [
+    {
+      "number": 1,
       "name": "brightness",
+      "name_i18n": {
+        "en": "brightness",
+        "ja": "明るさ",
+        "ja_kana": "あかるさ [lx]"
+      },
       "description": "Brightness [lx]",
+      "description_i18n": {
+        "en": "Brightness [lx]",
+        "ja": "周囲の明るさ [lx]",
+        "ja_kana": "しゅういのあかるさ [lx]"
+      },
       "type": "uint16"
     },
-    "2": {
+    {
+      "number": 2,
       "name": "proximity",
+      "name_i18n": {
+        "en": "proximity",
+        "ja": "近接距離",
+        "ja_kana": "きんせつきょり"
+      },
       "description": "Proximity [mm]",
+      "description_i18n": {
+        "en": "Proximity [mm]",
+        "ja": "センサからの近接距離 [mm]",
+        "ja_kana": "センサからのきんせつきょり [mm]"
+      },
       "type": "uint16"
     }
-  }
+  ]
 }

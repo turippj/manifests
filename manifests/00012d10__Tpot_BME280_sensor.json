@@ -1,25 +1,73 @@
 {
-  "model": 77072,
+  "i18n": [
+    "en",
+    "ja",
+    "ja_kana"
+  ],
+  "model": "12d10",
   "name": "Tpot BME280 sensor",
+  "name_i18n": {
+    "en": "Tpot BME280 sensor",
+    "ja": "Tpot BME280 センサ",
+    "ja_kana": "Tpot BME280 センサ"
+  },
   "description": "A Tpot module of environment sensors (Bosch, BME280).",
+  "description_i18n": {
+    "en": "A Tpot module of environment sensors (Bosch, BME280).",
+    "ja": "環境センサ(Bosch, BME280)を搭載したTpotモジュール",
+    "ja_kana": "かんきょうセンサ(Bosch, BME280)をとうさいしたTpotモジュール"
+  },
   "interface": [
     "i2c"
   ],
-  "port": {
-    "1": {
+  "port": [
+    {
+      "number": 1,
       "type": "float",
       "name": "Temperature",
-      "description": "Temperature [°C]"
+      "name_i18n": {
+        "en": "Temperature",
+        "ja": "気温",
+        "ja_kana": "きおん"
+      },
+      "description": "Temperature [°C]",
+      "description_i18n": {
+        "en": "Temperature",
+        "ja": "気温 [°C]",
+        "ja_kana": "きおん [°C]"
+      }
     },
-    "2": {
+    {
+      "number": 2,
       "type": "float",
       "name": "Humidity",
-      "description": "Humidity [%]"
+      "name_i18n": {
+        "en": "Humidity",
+        "ja": "湿度",
+        "ja_kana": "しつど"
+      },
+      "description": "Humidity [%]",
+      "description_i18n": {
+        "en": "Humidity",
+        "ja": "湿度 [%]",
+        "ja_kana": "湿度 [%]"
+      }
     },
-    "3": {
+    {
+      "number": 3,
       "type": "float",
       "name": "Pressure",
-      "description": "Pressure [Pa]"
+      "name_i18n": {
+        "en": "Pressure",
+        "ja": "気圧",
+        "ja_kana": "きあつ"
+      },
+      "description": "Pressure [Pa]",
+      "description_i18n": {
+        "en": "Pressure",
+        "ja": "気圧 [Pa]",
+        "ja_kana": "きあつ [Pa]"
+      }
     }
-  }
+  ]
 }
