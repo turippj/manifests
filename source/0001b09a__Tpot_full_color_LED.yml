@@ -1,0 +1,52 @@
+i18n:
+  - en
+  - ja
+  - ja_kana
+model: 0x0001b09a
+name: &name "Tpot full color LED"
+name_i18n:
+  en: *name
+  ja: ""
+  ja_kana: ""
+description: &description ""
+description_i18n:
+  en: *description
+  ja: ""
+  ja_kana: ""
+port:
+  1:
+    type: "uint8"
+    name: "Red"
+    name_i18n:
+      en: *name
+      ja: ""
+      ja_kana: ""
+    description: &description ""
+    description_i18n:
+      en: *description
+      ja: ""
+      ja_kana: ""
+  2:
+    type: "uint8"
+    name: "Green"
+    name_i18n:
+      en: *name
+      ja: ""
+      ja_kana: ""
+    description: &description ""
+    description_i18n:
+      en: *description
+      ja: ""
+      ja_kana: ""
+  3:
+    type: "uint8"
+    name: "Blue"
+    name_i18n:
+      en: *name
+      ja: ""
+      ja_kana: ""
+    description: &description ""
+    description_i18n:
+      en: *description
+      ja: ""
+      ja_kana: ""
