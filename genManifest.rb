@@ -29,6 +29,7 @@ File.open("./source/" + filename, "w") do |f|
   f.puts "port:"
   f.puts "  number:"
   f.puts "    type: \"\""
+  f.puts "    permission: \"RW\""
   f.puts "    name: \"\""
   f.puts "    name_i18n:\n      en: *name\n      ja: \"\"\n      ja_kana: \"\""
   f.puts "    description: &description \"\""
