@@ -1,0 +1,40 @@
+i18n:
+  - en
+  - ja
+  - ja_kana
+model: 0x00014e67
+name: &name "Tpot APDS-9960 sensor"
+name_i18n:
+  en: *name
+  ja: "Tpot APDS-9960 センサ"
+  ja_kana: "Tpot APDS-9960 センサ"
+description: &description "A Tpot module of proximity and gesture sensors (Broadcom, APDS-9960)."
+description_i18n:
+  en: *description
+  ja: "近接・ジェスチャーセンサ(Broadcom, APDS-9960)を搭載したTpotモジュール"
+  ja_kana: "きんせつ・ジェスチャーセンサ(Broadcom, APDS-9960)をとうさいしたTpotモジュール"
+port:
+  1:
+    name: &name "brightness"
+    name_i18n:
+      en: *name
+      ja: "明るさ"
+      ja_kana: "あかるさ [lx]"
+    description: &description "Brightness [lx]"
+    description_i18n:
+      en: *description
+      ja: "周囲の明るさ [lx]"
+      ja_kana: "しゅういのあかるさ [lx]"
+    type: uint16
+  2:
+    name: &name "proximity"
+    name_i18n:
+      en: *name
+      ja: "近接距離"
+      ja_kana: "きんせつきょり"
+    description: &description "Proximity [mm]"
+    description_i18n:
+      en: *description
+      ja: "センサからの近接距離 [mm]"
+      ja_kana: "センサからのきんせつきょり [mm]"
+    type: uint16

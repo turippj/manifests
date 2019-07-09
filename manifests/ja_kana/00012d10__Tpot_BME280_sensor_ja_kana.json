@@ -1,0 +1,22 @@
+{
+  "model": 77072,
+  "name": "Tpot BME280 センサ",
+  "description": "かんきょうセンサ(Bosch, BME280)をとうさいしたTpotモジュール",
+  "port": {
+    "1": {
+      "type": "float",
+      "name": "きおん [°C]",
+      "description": "Temperature [°C]"
+    },
+    "2": {
+      "type": "float",
+      "name": "湿度 [%]",
+      "description": "Humidity [%]"
+    },
+    "3": {
+      "type": "float",
+      "name": "きあつ [Pa]",
+      "description": "Pressure [Pa]"
+    }
+  }
+}

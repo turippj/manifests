@@ -1,0 +1,22 @@
+{
+  "model": 77072,
+  "name": "Tpot BME280 センサ",
+  "description": "環境センサ(Bosch, BME280)を搭載したTpotモジュール",
+  "port": {
+    "1": {
+      "type": "float",
+      "name": "気温 [°C]",
+      "description": "Temperature [°C]"
+    },
+    "2": {
+      "type": "float",
+      "name": "湿度 [%]",
+      "description": "Humidity [%]"
+    },
+    "3": {
+      "type": "float",
+      "name": "気圧 [Pa]",
+      "description": "Pressure [Pa]"
+    }
+  }
+}

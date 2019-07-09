@@ -1,0 +1,17 @@
+{
+  "model": 85607,
+  "name": "Tpot APDS-9960 センサ",
+  "description": "近接・ジェスチャーセンサ(Broadcom, APDS-9960)を搭載したTpotモジュール",
+  "port": {
+    "1": {
+      "name": "周囲の明るさ [lx]",
+      "description": "Brightness [lx]",
+      "type": "uint16"
+    },
+    "2": {
+      "name": "センサからの近接距離 [mm]",
+      "description": "Proximity [mm]",
+      "type": "uint16"
+    }
+  }
+}

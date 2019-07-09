@@ -1,0 +1,17 @@
+{
+  "model": 85607,
+  "name": "Tpot APDS-9960 sensor",
+  "description": "A Tpot module of proximity and gesture sensors (Broadcom, APDS-9960).",
+  "port": {
+    "1": {
+      "name": "Brightness [lx]",
+      "description": "Brightness [lx]",
+      "type": "uint16"
+    },
+    "2": {
+      "name": "Proximity [mm]",
+      "description": "Proximity [mm]",
+      "type": "uint16"
+    }
+  }
+}
