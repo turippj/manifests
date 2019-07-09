@@ -2,6 +2,9 @@
   "model": 70356,
   "name": "",
   "description": "",
+  "interface": [
+    "i2c"
+  ],
   "port": {
     "1": {
       "type": "uint16",

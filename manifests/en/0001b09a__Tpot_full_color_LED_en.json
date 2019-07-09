@@ -1,0 +1,25 @@
+{
+  "model": 110746,
+  "name": "Tpot full color LED",
+  "description": "",
+  "interface": [
+    "virtual"
+  ],
+  "port": {
+    "1": {
+      "type": "uint8",
+      "name": "",
+      "description": ""
+    },
+    "2": {
+      "type": "uint8",
+      "name": "",
+      "description": ""
+    },
+    "3": {
+      "type": "uint8",
+      "name": "",
+      "description": ""
+    }
+  }
+}

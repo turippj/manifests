@@ -1,18 +1,23 @@
 {
-  "model": 77384,
+  "model": 110746,
   "name": "",
   "description": "",
   "interface": [
-    "i2c"
+    "virtual"
   ],
   "port": {
     "1": {
-      "type": "int16",
+      "type": "uint8",
       "name": "",
       "description": ""
     },
     "2": {
-      "type": "uint16",
+      "type": "uint8",
+      "name": "",
+      "description": ""
+    },
+    "3": {
+      "type": "uint8",
       "name": "",
       "description": ""
     }

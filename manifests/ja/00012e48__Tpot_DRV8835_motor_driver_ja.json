@@ -2,6 +2,9 @@
   "model": 77384,
   "name": "",
   "description": "",
+  "interface": [
+    "i2c"
+  ],
   "port": {
     "1": {
       "type": "int16",

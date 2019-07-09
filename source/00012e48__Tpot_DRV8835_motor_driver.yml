@@ -1,7 +1,4 @@
-i18n:
-  - en
-  - ja
-  - ja_kana
+i18n: [en, ja, ja_kana]
 model: 0x00012e48
 name: "Tpot DRV8835 motor driver"
 name_i18n:
@@ -13,6 +10,7 @@ description_i18n:
   en: ""
   ja: ""
   ja_kana: ""
+interface: ["i2c"]
 port:
   1:
     type: int16

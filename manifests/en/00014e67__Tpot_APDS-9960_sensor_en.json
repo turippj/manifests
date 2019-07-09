@@ -2,6 +2,9 @@
   "model": 85607,
   "name": "Tpot APDS-9960 sensor",
   "description": "A Tpot module of proximity and gesture sensors (Broadcom, APDS-9960).",
+  "interface": [
+    "i2c"
+  ],
   "port": {
     "1": {
       "name": "Brightness [lx]",

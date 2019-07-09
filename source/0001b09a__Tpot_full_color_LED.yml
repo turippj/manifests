@@ -1,7 +1,4 @@
-i18n:
-  - en
-  - ja
-  - ja_kana
+i18n: [en, ja, ja_kana]
 model: 0x0001b09a
 name: &name "Tpot full color LED"
 name_i18n:
@@ -13,6 +10,7 @@ description_i18n:
   en: *description
   ja: ""
   ja_kana: ""
+interface: [virtual]
 port:
   1:
     type: "uint8"

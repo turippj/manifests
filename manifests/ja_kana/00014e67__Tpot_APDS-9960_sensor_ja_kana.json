@@ -2,6 +2,9 @@
   "model": 85607,
   "name": "Tpot APDS-9960 センサ",
   "description": "きんせつ・ジェスチャーセンサ(Broadcom, APDS-9960)をとうさいしたTpotモジュール",
+  "interface": [
+    "i2c"
+  ],
   "port": {
     "1": {
       "name": "しゅういのあかるさ [lx]",
