@@ -9,18 +9,21 @@
     {
       "number": 1,
       "type": "float",
+      "permission": "R",
       "name": "Temperature",
       "description": "Temperature"
     },
     {
       "number": 2,
       "type": "float",
+      "permission": "R",
       "name": "Humidity",
       "description": "Humidity"
     },
     {
       "number": 3,
       "type": "float",
+      "permission": "R",
       "name": "Pressure",
       "description": "Pressure"
     }

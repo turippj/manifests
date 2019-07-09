@@ -8,15 +8,17 @@
   "port": [
     {
       "number": 1,
+      "type": "uint16",
+      "permission": "R",
       "name": "あかるさ [lx]",
-      "description": "しゅういのあかるさ [lx]",
-      "type": "uint16"
+      "description": "しゅういのあかるさ [lx]"
     },
     {
       "number": 2,
+      "type": "uint16",
+      "permission": "R",
       "name": "きんせつきょり",
-      "description": "センサからのきんせつきょり [mm]",
-      "type": "uint16"
+      "description": "センサからのきんせつきょり [mm]"
     }
   ]
 }

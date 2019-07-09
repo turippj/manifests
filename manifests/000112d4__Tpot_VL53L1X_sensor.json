@@ -24,6 +24,7 @@
     {
       "number": 1,
       "type": "uint16",
+      "permission": "R",
       "name": "Distance [mm]",
       "name_i18n": {
         "en": "",

@@ -8,15 +8,17 @@
   "port": [
     {
       "number": 1,
+      "type": "uint16",
+      "permission": "R",
       "name": "brightness",
-      "description": "Brightness [lx]",
-      "type": "uint16"
+      "description": "Brightness [lx]"
     },
     {
       "number": 2,
+      "type": "uint16",
+      "permission": "R",
       "name": "proximity",
-      "description": "Proximity [mm]",
-      "type": "uint16"
+      "description": "Proximity [mm]"
     }
   ]
 }

@@ -9,12 +9,14 @@
     {
       "number": 1,
       "type": "int16",
+      "permission": "RW",
       "name": "",
       "description": ""
     },
     {
       "number": 2,
       "type": "uint16",
+      "permission": "RW",
       "name": "",
       "description": ""
     }

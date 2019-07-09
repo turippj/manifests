@@ -24,6 +24,7 @@
     {
       "number": 1,
       "type": "int16",
+      "permission": "RW",
       "name": "motor1 output",
       "name_i18n": {
         "en": "",
@@ -40,6 +41,7 @@
     {
       "number": 2,
       "type": "uint16",
+      "permission": "RW",
       "name": "motor2 output",
       "name_i18n": {
         "en": "",

@@ -23,6 +23,8 @@
   "port": [
     {
       "number": 1,
+      "type": "uint16",
+      "permission": "R",
       "name": "brightness",
       "name_i18n": {
         "en": "brightness",
@@ -34,11 +36,12 @@
         "en": "Brightness [lx]",
         "ja": "周囲の明るさ [lx]",
         "ja_kana": "しゅういのあかるさ [lx]"
-      },
-      "type": "uint16"
+      }
     },
     {
       "number": 2,
+      "type": "uint16",
+      "permission": "R",
       "name": "proximity",
       "name_i18n": {
         "en": "proximity",
@@ -50,8 +53,7 @@
         "en": "Proximity [mm]",
         "ja": "センサからの近接距離 [mm]",
         "ja_kana": "センサからのきんせつきょり [mm]"
-      },
-      "type": "uint16"
+      }
     }
   ]
 }

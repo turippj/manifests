@@ -8,15 +8,17 @@
   "port": [
     {
       "number": 1,
+      "type": "uint16",
+      "permission": "R",
       "name": "明るさ",
-      "description": "周囲の明るさ [lx]",
-      "type": "uint16"
+      "description": "周囲の明るさ [lx]"
     },
     {
       "number": 2,
+      "type": "uint16",
+      "permission": "R",
       "name": "近接距離",
-      "description": "センサからの近接距離 [mm]",
-      "type": "uint16"
+      "description": "センサからの近接距離 [mm]"
     }
   ]
 }

@@ -24,6 +24,7 @@
     {
       "number": 1,
       "type": "uint8",
+      "permission": "RW",
       "name": "Red",
       "name_i18n": {
         "en": "Tpot full color LED",
@@ -40,6 +41,7 @@
     {
       "number": 2,
       "type": "uint8",
+      "permission": "RW",
       "name": "Green",
       "name_i18n": {
         "en": "Tpot full color LED",
@@ -56,6 +58,7 @@
     {
       "number": 3,
       "type": "uint8",
+      "permission": "RW",
       "name": "Blue",
       "name_i18n": {
         "en": "Tpot full color LED",

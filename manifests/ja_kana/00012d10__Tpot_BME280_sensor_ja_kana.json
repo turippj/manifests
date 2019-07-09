@@ -9,18 +9,21 @@
     {
       "number": 1,
       "type": "float",
+      "permission": "R",
       "name": "きおん",
       "description": "きおん [°C]"
     },
     {
       "number": 2,
       "type": "float",
+      "permission": "R",
       "name": "しつど",
       "description": "湿度 [%]"
     },
     {
       "number": 3,
       "type": "float",
+      "permission": "R",
       "name": "きあつ",
       "description": "きあつ [Pa]"
     }

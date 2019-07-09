@@ -9,6 +9,7 @@
     {
       "number": 1,
       "type": "uint16",
+      "permission": "R",
       "name": "",
       "description": ""
     }

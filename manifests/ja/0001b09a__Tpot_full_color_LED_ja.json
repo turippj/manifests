@@ -9,18 +9,21 @@
     {
       "number": 1,
       "type": "uint8",
+      "permission": "RW",
       "name": "",
       "description": ""
     },
     {
       "number": 2,
       "type": "uint8",
+      "permission": "RW",
       "name": "",
       "description": ""
     },
     {
       "number": 3,
       "type": "uint8",
+      "permission": "RW",
       "name": "",
       "description": ""
     }

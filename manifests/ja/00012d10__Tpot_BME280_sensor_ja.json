@@ -9,18 +9,21 @@
     {
       "number": 1,
       "type": "float",
+      "permission": "R",
       "name": "気温",
       "description": "気温 [°C]"
     },
     {
       "number": 2,
       "type": "float",
+      "permission": "R",
       "name": "湿度",
       "description": "湿度 [%]"
     },
     {
       "number": 3,
       "type": "float",
+      "permission": "R",
       "name": "気圧",
       "description": "気圧 [Pa]"
     }

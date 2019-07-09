@@ -13,6 +13,8 @@ description_i18n:
 interface: ["i2c"]
 port:
   1:
+    type: uint16
+    permission: "R"
     name: &name "brightness"
     name_i18n:
       en: *name
@@ -23,8 +25,9 @@ port:
       en: *description
       ja: "周囲の明るさ [lx]"
       ja_kana: "しゅういのあかるさ [lx]"
-    type: uint16
   2:
+    type: uint16
+    permission: "R"
     name: &name "proximity"
     name_i18n:
       en: *name
@@ -35,4 +38,3 @@ port:
       en: *description
       ja: "センサからの近接距離 [mm]"
       ja_kana: "センサからのきんせつきょり [mm]"
-    type: uint16

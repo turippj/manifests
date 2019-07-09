@@ -24,6 +24,7 @@
     {
       "number": 1,
       "type": "float",
+      "permission": "R",
       "name": "Temperature",
       "name_i18n": {
         "en": "Temperature",
@@ -40,6 +41,7 @@
     {
       "number": 2,
       "type": "float",
+      "permission": "R",
       "name": "Humidity",
       "name_i18n": {
         "en": "Humidity",
@@ -56,6 +58,7 @@
     {
       "number": 3,
       "type": "float",
+      "permission": "R",
       "name": "Pressure",
       "name_i18n": {
         "en": "Pressure",
