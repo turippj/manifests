@@ -4,7 +4,7 @@ models = []
 Dir.glob("./source/*.yml"){ |f|
   models.push(File.basename(f)[0..7])
 }
-puts models
+# puts models
 
 newmodel = "0001" + SecureRandom.hex(2).to_str
 until models.include?(newmodel) == false
@@ -18,6 +18,7 @@ manifest = {
 }
 
 filename = newmodel + "__" + name.gsub(/ /, '_') + ".yml"
+puts filename
 File.open("./source/" + filename, "w") do |f|
   f.puts "i18n: [en, ja, ja_kana]"
   f.puts "model: 0x" + newmodel
