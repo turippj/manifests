@@ -1,0 +1,24 @@
+{
+  "model": "13fa0",
+  "name": null,
+  "description": null,
+  "interface": [
+    "RS485"
+  ],
+  "port": [
+    {
+      "number": 1,
+      "type": "float",
+      "permission": "R",
+      "name": null,
+      "description": null
+    },
+    {
+      "number": 2,
+      "type": "float",
+      "permission": "R",
+      "name": null,
+      "description": null
+    }
+  ]
+}

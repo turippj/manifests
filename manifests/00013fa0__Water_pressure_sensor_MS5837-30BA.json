@@ -1,0 +1,53 @@
+{
+  "i18n": [
+    "en",
+    "ja",
+    "ja_kana"
+  ],
+  "model": "13fa0",
+  "name": "Water pressure sensor MS5837-30BA",
+  "name_i18n": {
+    "en": "Water pressure sensor MS5837-30BA",
+    "ja": "水圧センサ (MS5837-30BA搭載)"
+  },
+  "description": "Water pressure sensor (TE, MS5837-30BA). Measure range: < 30bar.",
+  "description_i18n": {
+    "en": "Water pressure sensor (TE, MS5837-30BA). Measure range: < 30bar.",
+    "ja": "TE製MS5837-30BAを搭載した水圧センサです。30barまでの測定が可能です。"
+  },
+  "interface": [
+    "RS485"
+  ],
+  "port": [
+    {
+      "number": 1,
+      "type": "float",
+      "permission": "R",
+      "name": "temperature",
+      "name_i18n": {
+        "en": "Temperature [°C]",
+        "ja": "水温 [°C]"
+      },
+      "description": "Water temperature.",
+      "description_i18n": {
+        "en": "Water temperature.",
+        "ja": "水温測定値"
+      }
+    },
+    {
+      "number": 2,
+      "type": "float",
+      "permission": "R",
+      "name": "pressure",
+      "name_i18n": {
+        "en": "Pressure [mbar]",
+        "ja": "水圧 [mbar]"
+      },
+      "description": "Water pressure.",
+      "description_i18n": {
+        "en": "Water pressure.",
+        "ja": "水圧測定値"
+      }
+    }
+  ]
+}

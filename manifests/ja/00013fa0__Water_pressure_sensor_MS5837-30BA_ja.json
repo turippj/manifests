@@ -1,0 +1,24 @@
+{
+  "model": "13fa0",
+  "name": "水圧センサ (MS5837-30BA搭載)",
+  "description": "TE製MS5837-30BAを搭載した水圧センサです。30barまでの測定が可能です。",
+  "interface": [
+    "RS485"
+  ],
+  "port": [
+    {
+      "number": 1,
+      "type": "float",
+      "permission": "R",
+      "name": "水温 [°C]",
+      "description": "水温測定値"
+    },
+    {
+      "number": 2,
+      "type": "float",
+      "permission": "R",
+      "name": "水圧 [mbar]",
+      "description": "水圧測定値"
+    }
+  ]
+}

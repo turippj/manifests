@@ -1,0 +1,1 @@
+{"model":"13fa0","name":"Water pressure sensor MS5837-30BA","description":"Water pressure sensor (TE, MS5837-30BA). Measure range: < 30bar.","interface":["RS485"],"port":[{"number":1,"type":"float","permission":"R","name":"temperature","description":"Water temperature."},{"number":2,"type":"float","permission":"R","name":"pressure","description":"Water pressure."}]}
