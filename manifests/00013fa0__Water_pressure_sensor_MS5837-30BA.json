@@ -1,8 +1,7 @@
 {
   "i18n": [
     "en",
-    "ja",
-    "ja_kana"
+    "ja"
   ],
   "model": "13fa0",
   "name": "Water pressure sensor MS5837-30BA",

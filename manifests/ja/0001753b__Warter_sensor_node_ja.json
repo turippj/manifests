@@ -1,0 +1,31 @@
+{
+  "model": "1753b",
+  "name": "水質センサノード",
+  "description": "水温および水圧（水深）が測定可能な水質センサノードです。Sakuraioで接続されます。",
+  "interface": [
+    "virtual"
+  ],
+  "port": [
+    {
+      "number": 0,
+      "type": "uint32",
+      "permission": "R",
+      "name": "LTE回線強度",
+      "description": "SakuraioモジュールのLTE回線強度"
+    },
+    {
+      "number": 1,
+      "type": "float",
+      "permission": "R",
+      "name": "水温 [°C]",
+      "description": "水温測定値"
+    },
+    {
+      "number": 2,
+      "type": "float",
+      "permission": "R",
+      "name": "水圧 [bar]",
+      "description": "水圧測定値"
+    }
+  ]
+}

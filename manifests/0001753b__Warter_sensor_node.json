@@ -1,0 +1,67 @@
+{
+  "i18n": [
+    "en",
+    "ja"
+  ],
+  "model": "1753b",
+  "name": "Warter sensor node",
+  "name_i18n": {
+    "en": "Warter sensor node",
+    "ja": "水質センサノード"
+  },
+  "description": "Warter sensor node (Temperature and Pressure).",
+  "description_i18n": {
+    "en": "Warter sensor node (Temperature and Pressure).",
+    "ja": "水温および水圧（水深）が測定可能な水質センサノードです。Sakuraioで接続されます。"
+  },
+  "interface": [
+    "virtual"
+  ],
+  "port": [
+    {
+      "number": 0,
+      "type": "uint32",
+      "permission": "R",
+      "name": "LTE strength",
+      "name_i18n": {
+        "en": "Warter sensor node",
+        "ja": "LTE回線強度"
+      },
+      "description": "LTE strength of Sakuraio.",
+      "description_i18n": {
+        "en": "LTE strength of Sakuraio.",
+        "ja": "SakuraioモジュールのLTE回線強度"
+      }
+    },
+    {
+      "number": 1,
+      "type": "float",
+      "permission": "R",
+      "name": "temperature",
+      "name_i18n": {
+        "en": "Temperature [°C]",
+        "ja": "水温 [°C]"
+      },
+      "description": "Water temperature",
+      "description_i18n": {
+        "en": "Water temperature",
+        "ja": "水温測定値"
+      }
+    },
+    {
+      "number": 2,
+      "type": "float",
+      "permission": "R",
+      "name": "pressure",
+      "name_i18n": {
+        "en": "Pressure [bar]",
+        "ja": "水圧 [bar]"
+      },
+      "description": "Water pressure",
+      "description_i18n": {
+        "en": "Water pressure",
+        "ja": "水圧測定値"
+      }
+    }
+  ]
+}

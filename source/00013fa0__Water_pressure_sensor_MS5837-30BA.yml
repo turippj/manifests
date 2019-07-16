@@ -1,4 +1,4 @@
-i18n: [en, ja, ja_kana]
+i18n: [en, ja]
 model: 0x00013fa0
 name: &name "Water pressure sensor MS5837-30BA"
 name_i18n:
