@@ -24,7 +24,7 @@
       "number": 2,
       "type": "float",
       "permission": "R",
-      "name": "Pressure [bar]",
+      "name": "Pressure [mbar]",
       "description": "Water pressure"
     }
   ]

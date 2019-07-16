@@ -54,8 +54,8 @@
       "permission": "R",
       "name": "pressure",
       "name_i18n": {
-        "en": "Pressure [bar]",
-        "ja": "水圧 [bar]"
+        "en": "Pressure [mbar]",
+        "ja": "水圧 [mbar]"
       },
       "description": "Water pressure",
       "description_i18n": {

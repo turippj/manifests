@@ -24,7 +24,7 @@
       "number": 2,
       "type": "float",
       "permission": "R",
-      "name": "水圧 [bar]",
+      "name": "水圧 [mbar]",
       "description": "水圧測定値"
     }
   ]
